@@ -1,9 +1,9 @@
 # C# Console Applications App01 to App05
 | Author | Details |
 | ---- | ---- |
-**Name**: | Student Name  |
-**Student ID**: | 12345678 |
-**Course:** | Computing |
+**Name**: | Kamil Lesniewski  |
+**Student ID**: | 21906354 |
+**Course:** | Artificial Intelligence |
 **Module**: | CO453     |
 **Started**: | January 2021 |    
 
