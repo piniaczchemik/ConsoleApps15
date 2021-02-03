@@ -1,4 +1,6 @@
-﻿namespace ConsoleAppProject.App01
+﻿using System;
+
+namespace ConsoleAppProject.App01
 {
     /// <summary>
     /// This class offers methods for converting a given
@@ -10,34 +12,34 @@
     /// Kamil Lesniewski 21906354
     public class DistanceConverter 
     {
-    }
         private double miles;
+
         private double feet;
-            
-            /// <summary>
-            /// 
-            /// </summary>
+
+       /// <summary>
+       /// 
+       /// </summary>
         public void Run() 
         {
-        
+
         }
-        /// <summary>
-        /// Prompt the user to enter the distance in miles
-        /// Input the miles as a double number.
-        /// </summary>
+         /// <summary>
+         /// Prompt the user to enter the distance in miles
+         /// Input the miles as a double number
+         /// </summary>
         private void InputMiles() 
+        { 
+
+        }
+        private void Calculatefeet() 
         {
-        
+
+        }
+    
+        private void outputFeet() 
+        {
+
         }
 
-        private void CalculateFeet() 
-        {
-        
-        }
-
-        private void OutputFeet() 
-        {
-        
-        }
     }
 }
