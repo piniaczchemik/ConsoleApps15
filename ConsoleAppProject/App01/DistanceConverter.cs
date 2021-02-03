@@ -21,15 +21,19 @@ namespace ConsoleAppProject.App01
        /// </summary>
         public void Run() 
         {
-
+            InputMiles();
+            Calculatefeet();
+            outputFeet();
         }
          /// <summary>
          /// Prompt the user to enter the distance in miles
          /// Input the miles as a double number
          /// </summary>
         private void InputMiles() 
-        { 
-
+        {
+            Console.Write("Please enter the number of miles > ");
+            string value = Console.ReadLine();
+            miles = Convert.ToDouble(value);
         }
         private void Calculatefeet() 
         {
