@@ -12,6 +12,8 @@ namespace ConsoleAppProject.App01
     /// Kamil Lesniewski 21906354
     public class DistanceConverter 
     {
+        public const int FEET_IN_MILES = 5280;
+        
         private double miles;
 
         private double feet;
@@ -21,14 +23,24 @@ namespace ConsoleAppProject.App01
        /// </summary>
         public void Run() 
         {
+            OutputHeading();
             InputMiles();
             Calculatefeet();
             outputFeet();
         }
-         /// <summary>
-         /// Prompt the user to enter the distance in miles
-         /// Input the miles as a double number
-         /// </summary>
+
+        private void OutputHeading()
+        {
+            Console.WriteLine("\n-----------------------------------");
+            Console.WriteLine("       Convert Miles to Feet         ");
+            Console.WriteLine("        By Kamil Lesniewski          ");
+            Console.WriteLine("-----------------------------------\n");
+        }
+
+        /// <summary>
+        /// Prompt the user to enter the distance in miles
+        /// Input the miles as a double number
+        /// </summary>
         private void InputMiles() 
         {
             Console.Write("Please enter the number of miles > ");
