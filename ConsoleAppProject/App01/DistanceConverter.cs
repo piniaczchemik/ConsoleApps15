@@ -47,11 +47,16 @@ namespace ConsoleAppProject.App01
 3. Miles
 
 
-Please select your units";
+Please select your units
+Example: 5 feet ";
+
 
             Console.WriteLine(heading);
         }
 
+        /// <summary>
+        /// This method is the primary method that takes the imput and convert it
+        /// </summary>
         public void Convert()
         {
             OutputHeading();
@@ -61,7 +66,7 @@ Please select your units";
             fromDistance = float.Parse(input[0]);
             fromUnit = input[1];
 
-            Console.WriteLine(" Convert " + fromDistance + " " + fromUnit + " into...");
+            Console.WriteLine(" Convert this " + fromDistance + " " + fromUnit + " into ");
             toUnit = Console.ReadLine().ToLower();
 
             if (fromUnit == "miles" && toUnit == "feet")// miles into feet
