@@ -1,10 +1,10 @@
 ﻿namespace ConsoleAppProject.App02
 {
     /// <summary>
-    /// Please describe the main features of this App
+    /// Takes the users input and caltulate a BMI
     /// </summary>
-    /// <author>
-    /// Student Name version 0.1
+    /// <author> 
+    /// Kamil Lesniewski 03/03/2021
     /// </author>
 
     using System;
@@ -22,7 +22,6 @@
                 bMI.getDetails(MEASUREMENT); //call methods
                 bMI.calcBMI(MEASUREMENT);
                 bMI.displayBMI();
-                System.Threading.Thread.Sleep(5000);
             }
 
             public BMI() //constructor
