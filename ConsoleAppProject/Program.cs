@@ -1,5 +1,6 @@
 ﻿using System;
 using ConsoleAppProject.App01;
+using ConsoleAppProject.App02;
 
 namespace ConsoleAppProject
 {
@@ -36,7 +37,8 @@ namespace ConsoleAppProject
 
                 case "2":
                     {
-                       
+                        BMI calculator = new BMI();
+                        calculator.Main();
                         break;
                     }
             } 
