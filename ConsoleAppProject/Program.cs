@@ -1,6 +1,7 @@
 ﻿using System;
 using ConsoleAppProject.App01;
 using ConsoleAppProject.App02;
+using StudentMarks;
 
 namespace ConsoleAppProject
 {
@@ -23,6 +24,7 @@ namespace ConsoleAppProject
             Console.Beep();
             Console.WriteLine("|1. Distance converter");
             Console.WriteLine("|2. BMI calculator");
+            Console.WriteLine("|3. Student Marks");
 
             string input = Console.ReadLine();
 
@@ -39,6 +41,12 @@ namespace ConsoleAppProject
                     {
                         BMI calculator = new BMI();
                         calculator.Main();
+                        break;
+                    }
+                case "3":
+                    {
+                        StudentGrades studentGrades = new StudentGrades();
+                        UserLib.SelectChoice(studentGrades);
                         break;
                     }
             } 
